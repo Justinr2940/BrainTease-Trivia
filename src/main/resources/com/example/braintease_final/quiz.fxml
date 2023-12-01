@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane stylesheets="@styles.css" prefHeight="1000" prefWidth="1200" xmlns="http://javafx.com/javafx/11.0.14-internal" styleClass="root" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.braintease_final.Controller">
+   <children>
+      <Label fx:id="question" layoutX="350" layoutY="300" prefHeight="200.0" prefWidth="800.0" styleClass="question-label" wrapText="true">
+         <font>
+            <Font name="Times New Roman" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="opt1" layoutX="50" layoutY="600" mnemonicParsing="false" onAction="#opt1clicked" prefHeight="100.0" prefWidth="200.0" styleClass="hex-button" text="Option 1" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Button>
+      <Button id="opt3" fx:id="opt3" layoutX="50" layoutY="750" mnemonicParsing="false" onAction="#opt3clicked" prefHeight="100.0" prefWidth="200.0" styleClass="hex-button" text="Option 3" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Button>
+      <Button id="opt4" fx:id="opt4" layoutX="650" layoutY="600" mnemonicParsing="false" onAction="#opt4clicked" prefHeight="100.0" prefWidth="200.0" styleClass="hex-button" text="Option 4" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Button>
+      <Button id="opt2" fx:id="opt2" layoutX="650" layoutY="750" mnemonicParsing="false" onAction="#opt2clicked" prefHeight="100.0" prefWidth="200.0" styleClass="hex-button" text="Option 2" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
