@@ -6,6 +6,7 @@
 
 <AnchorPane stylesheets="@styles.css" prefHeight="1000" prefWidth="1200" xmlns="http://javafx.com/javafx/11.0.14-internal" styleClass="root" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.braintease_final.Controller">
    <children>
+      <Label fx:id="scoreLabel" layoutX="950" layoutY="50" styleClass="score-label" text="Score: 0" />
       <Label fx:id="question" layoutX="350" layoutY="300" prefHeight="200.0" prefWidth="800.0" styleClass="question-label" wrapText="true">
          <font>
             <Font name="Times New Roman" size="30.0" />
